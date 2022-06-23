@@ -1,0 +1,27 @@
+Tipos de rede:
+Ponto A Ponto --> SERVIDORES NAO DEDICADOS.. ou seja, nao tem uma maquina apenas para o servidor.
+com menos segurança, ja que o servidor é o cliente ao mesmo tempo.. ou seja eu posso acessar ele normalmente.
+
+
+Client/Servidor --> SERVIDORES DEDICADOS.. ou seja, eles tem maquinas apenas para hospedar este servidor.
+com mais segurança, um computador sem monitor, sem teclado e sem mouse.. protegida em uma sala refrigerada e com proteção como no-break.
+
+Nó / nó de rede = qualquer coisa conectada a rede
+
+A)[i] ---------- [i]
+
+
+
+B) [i] ----|   |--- [i]
+           ==|==
+            [o]
+            
+
+
+C) [i]----[s]----[i]
+           |
+           |
+           |
+[net]-----[i]-----[impressora]
+
+grupo de trabalho= rede ponto a ponto
