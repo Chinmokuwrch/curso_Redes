@@ -1,0 +1,33 @@
+Firewall\
+DHCP     | Linux                                     ipconfig /all  /? pra conseguir ver o DHCP (IP_)
+Proxy   /
+
+
+
+         Zimbra=Linux
+       /
+e-mail
+       \
+         Exchanger=Windows SRV
+                                                                                                                      Proxy
+                                                                                                                      DHCP
+                                                                                                                      Firewall
+                              \                                                                              p1       linux srv
+A.D D.C (autenticação)         |                                                        Internet link 1 -- modem --\  |===|  p3      SW principal
+arquivos                       |  MS Win SRV                                                                 p2     | |===| --------------|
+DB Server (Sistema integrado)  |                                                        Internet link 2 -- modem --/  |===|               |
+impressao                     /                                                                                                           |
+                                                                                                                       win srv1|===|------=------|===| win srv 2
+                                                                                                                       a.d d.c |===|             |===| sql srv (sistema integrado)
+                                                                                                                       arquivos|===|             |===| a.d controlador de dominio reserva
+
+obrigação:
+Linux      //      Windows Srv
+
+
+sub rede: 192.168.10.0
+mascara: 255.255.255.0
+b.c: 192.168.10.255
+
+range: 192.168.10.10 até 192.168.10.100
+reserve: 192.168.10.1 até 192.168.10.9
